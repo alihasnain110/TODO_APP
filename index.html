@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Todo App - Signup</title>
+        <link rel="stylesheet" href="style.css">
+        <!-- Load Firebase scripts with `defer` to ensure they load after the HTML -->
+        <script src="https://www.gstatic.com/firebasejs/7.17.2/firebase-app.js" defer></script>
+        <script src="https://www.gstatic.com/firebasejs/7.17.2/firebase-auth.js" defer></script>
+        <script src="https://www.gstatic.com/firebasejs/7.17.2/firebase-database.js" defer></script>
+        <!-- Load the custom JavaScript code with `defer` -->
+        <script src="style.css" defer></script>
+    </head>
+    <body>
+        <div class="container">
+            <div id="loginform">
+                <h1 class="SignUpheading">SignUp Form</h1>
+                <form onsubmit="event.preventDefault(); signUp();">
+                    <input
+                        id="name"
+                        type="text"
+                        placeholder="Your Name"
+                        required
+                    >
+                    <br><br>
+                    <input
+                        id="email"
+                        type="email"
+                        placeholder="Your Email"
+                        required
+                    >
+                    <br><br>
+
+                    <input
+                        id="password"
+                        type="password"
+                        placeholder="Your Password"
+                        required
+                    >
+                    <br><br>
+
+                    <button type="submit">Sign Up now</button>
+                    <br><br>
+
+                    <a href="todoapp.html">ToDo App</a>
+                </form>
+            </div>
+        </div>
+    </body>
+</html>

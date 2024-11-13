@@ -1,0 +1,36 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: aqua;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+h1 {
+    font-size: 10vh;
+}
+
+div {
+    margin: 100px;
+}
+
+input {
+    padding: 5px;
+    border-radius: 2px;
+    background-color: rgba(7, 182, 241, 0.856);
+    margin: 5px;
+}
+
+button {
+    margin: 5px;
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+    background-color: rgba(7, 182, 241, 0.856);
+    border-radius: 2px;
+}
+
